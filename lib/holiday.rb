@@ -87,8 +87,6 @@ def all_supplies_in_holidays(holiday_hash)
   end
   puts "#{season_array[i]}: #{holiday_hash[i]}"
 
-end
-end
 
 end
 
