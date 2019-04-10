@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
         supply_array.push(value)
       end
     end
-  puts supply_array
+  season_array.to_s.capitalize!
 end
   
 
