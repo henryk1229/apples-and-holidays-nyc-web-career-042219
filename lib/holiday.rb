@@ -81,7 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
   season_array.collect do |season|
     season.capitalize!
   end
-  holiday_hash.collect do |holiday|
+  holiday_array.collect do |holiday|
     holiday.split
     holiday.capitalize!
   end
