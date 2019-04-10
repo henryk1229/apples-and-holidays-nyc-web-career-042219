@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
         supply_array.push(value)
       end
     end
-  i = 0 
+  
 
 end
   
