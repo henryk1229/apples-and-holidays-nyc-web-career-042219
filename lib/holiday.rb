@@ -85,9 +85,9 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.split
     holiday.capitalize!
   end
-  puts "#{season_array[i]}: #{holiday_hash[i]}"
+puts "#{season_array[i]}: #{holiday_hash[i]}"
 end
-end
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
