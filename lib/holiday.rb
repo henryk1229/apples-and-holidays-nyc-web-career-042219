@@ -68,18 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  season_array = []
-  holiday_array = []
-  supply_array = []
-  holiday_hash.each do |key, value|
-    season_array.push(key.to_s)
-    value.each do |key, value|
-      holiday_array.push(key.to_s)
-      value.each do |value|
-        supply_array.push(value)
-      end
-    end
-puts season_array
+  
 
 end
   
