@@ -72,9 +72,9 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_array = []
   supply_array = []
   holiday_hash.each do |key, value|
-    season_array.push(key.to_s.capitalize!)
+    season_array.push(key.to_s)
     value.each do |key, value|
-      holiday_array.push(key.to_s.capitalize!)
+      holiday_array.push(key.to_s)
       value.each do |value|
         supply_array.push(value)
       end
