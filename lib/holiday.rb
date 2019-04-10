@@ -72,16 +72,14 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_array = []
   supply_array = []
   holiday_hash.each do |key, value|
-    season_array.push(key.to_s)
+    season_array.push(key)
     value.each do |key, value|
-      holiday_array.push(key.to_s)
+      holiday_array.push(key)
       value.each do |value|
         supply_array.push(value)
       end
     end
-  all_supplies_array = []
-  i = 0 
-  while all_supplies_array.length < i do
+  puts supply_array
     
 end
   
