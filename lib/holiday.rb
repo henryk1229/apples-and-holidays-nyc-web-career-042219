@@ -82,6 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
   i = 0 
   while season_array.length < i do
     puts "#{season_array[i].capitalize!}: #{holiday_array[i].capitalize!}: #{supply_array[i].to_s.capitalize!}" 
+    i += 1 
   end   
 end
   
