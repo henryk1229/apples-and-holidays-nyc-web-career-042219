@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.split
     holiday.capitalize!
   end
-puts "#{season_array[i]}: #{holiday_hash[i]}"
+puts "#{season_array}: #{holiday_hash}"
 end
 
 
