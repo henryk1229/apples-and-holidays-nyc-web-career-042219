@@ -80,10 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
     end
   i = 0 
-  while season_array.length < i do
-    puts "#{season_array[i]}: #{holiday_array[i]}: #{supply_array[i]}" 
-    i += 1 
-  end   
+
 end
   
 
