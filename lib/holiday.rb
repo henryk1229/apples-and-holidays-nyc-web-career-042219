@@ -80,10 +80,6 @@ def all_supplies_in_holidays(holiday_hash)
       end
     end
   end
-  season_array
-  holiday_array
-  supply_array
-end
 end 
 
 
